@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resumen Anderson</title>
     <style>
-        .contact-section {
-            text-align: center;
-            margin-top: 50px;
-        }
-
         .contact-info {
             margin-bottom: 20px;
         }
@@ -22,83 +17,76 @@
         .profile-picture {
             max-width: 200px;
             border-radius: 50%;
-            margin: 20px auto;
-            display: block;
+            margin: auto auto;
+            display: auto;
         }
 
         .link-icon {
-            margin-right: 5px;
+            margin-right: auto;
         }
 
         .github-link {
-            margin-right: 5px;
+            margin-right: auto;
         }
 
 
-        * {
-            box-sizing: border-box;
-        }
 
         /* Create two equal columns that floats next to each other */
         .column {
-            margin: 0px 0px 0px 30px;
-            float: left;
-            width: 30%;
-            padding: 10px;
-            height: 300px;
-            /* Should be removed. Only for demonstration */
+
+            padding: 50px;
+
         }
 
-        /* Clear floats after the columns */
-        .row:after {
 
-            content: "";
-            display: table;
-            clear: both;
+
+        .row {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 100px 100px;
+
         }
     </style>
 </head>
 
 <body>
+
     <h1>Welcome to My Website</h1>
 
-    <div class="row">
+    <div>
+        <div class="row">
 
-        <div class="column" style="background-color:#ffffff;">
+            <div class="column">
 
-            <h2>Contact Information</h2>
+                <h2>Contact Information</h2>
 
-            <p><span>Email:</span> azolis92@hotmail.es</p>
-            <p><span>Phone:</span> 682838775</p>
-            <p><span>Address:</span> Barcelona</p>
+                <p><span>Email:</span> azolis92@hotmail.es</p>
+                <p><span>Phone:</span> 682838775</p>
+                <p><span>Address:</span> Barcelona</p>
 
-            <p>Connect with me on LinkedIn: <a class="linkedin-link"
-                    href="https://www.linkedin.com/in/anderson-zolis-ch-120b96124/" target="_blank"><img
-                        class="link-icon" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
-                        alt="LinkedIn Icon"> LinkedIn</a></p>
-            <p>Connect with me on GitHub: <a class="github-link" href="https://github.com/anderson92zolis"
-                    target="_blank"><img class="link-icon" src="https://github.githubassets.com/favicons/favicon.png"
-                        alt="GitHub Icon"> GitHub</a></p>
+                <p>Connect with me on LinkedIn: <a class="linkedin-link"
+                        href="https://www.linkedin.com/in/anderson-zolis-ch-120b96124/" target="_blank"><img
+                            class="link-icon" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
+                            alt="LinkedIn Icon"> LinkedIn</a></p>
+                <p>Connect with me on GitHub: <a class="github-link" href="https://github.com/anderson92zolis"
+                        target="_blank"><img class="link-icon"
+                            src="https://github.githubassets.com/favicons/favicon.png" alt="GitHub Icon"> GitHub</a></p>
 
-        </div>
+            </div>
 
-        <div class="column" style="background-color:#ffffff;">
+            <div class="column">
 
 
-            <img class="profile-picture" src="./pictures/WhatsApp Image 2023-05-31 at 17.40.06.jpeg"
-                alt="Profile Picture">
+                <img class="profile-picture" src="./pictures/WhatsApp Image 2023-05-31 at 17.40.06.jpeg"
+                    alt="Profile Picture">
 
+            </div>
         </div>
 
     </div>
 
-
     <div>
-
-
-
         <ul>
-
             <h1>Personal profile</h1>
 
             <hr>
@@ -202,7 +190,5 @@
     </div>
 
 </body>
-
-</html>
 
 </html>
